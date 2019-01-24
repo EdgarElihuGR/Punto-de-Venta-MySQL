@@ -1,0 +1,219 @@
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\MySql.Data.dll
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBaseAdmin.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormAgregarProdAVentas.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormAgregarProdAVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBaseAdmin.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\bin\Debug\MySql.Data.dll
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormAgregarProdAVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.Login.Login.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta para hacer login\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBase.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.Login.Login.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormAgregarProdAVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBase.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\Lhorenzo\Desktop\Punto-de-VentaLogin\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.Login.Login.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormAgregarProdAVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBase.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\MySql.Data.dll
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.Login.Login.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBase.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\Lhorenzo\Desktop\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\MySql.Data.dll
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.Login.Login.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBase.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta 3.0\Punto-de-Venta-Info-Text\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.EliminarProductosVenta.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\MySql.Data.dll
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.Login.Login.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.EliminarProductosVenta.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBase.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3ro\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\MySql.Data.dll
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\bin\Debug\MySql.Data.xml
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.Login.Login.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.EliminarProductosVenta.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormModificarProd.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.FormRegistrarProd.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionInventario.MainMenuInventario.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormModificarUsuariosGen.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.MainMenuUsuarios.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.FormModificarVentas.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionUsuarios.FormRegistrarUsuariosGen.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.OpcionVentas.MainMenuVentas.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanasBase.FormMostrarProductos.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.VentanaBase.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CopyComplete
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\ragde\Documents\3 Semestre\Ingenieria de Software\Proyecto\Avances Codigo\Punto de venta FINAL\Punto-de-Venta-FINAL\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb

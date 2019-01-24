@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CDB165E5-E32F-4BB8-9C1D-7FDC5DDFBBB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PuntoDeVenta</RootNamespace>
+    <AssemblyName>PuntoDeVenta</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.12\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases_base\Administrador.cs" />
+    <Compile Include="Clases_base\DetallesVenta.cs" />
+    <Compile Include="Clases_base\Usuario.cs" />
+    <Compile Include="Clases_DAO\DetalleVentaDAO.cs" />
+    <Compile Include="Clases_DAO\FuncionesGenerales.cs" />
+    <Compile Include="Clases_DAO\ProductosDAO.cs" />
+    <Compile Include="Clases_DAO\UsuariosDAO.cs" />
+    <Compile Include="Clases_DAO\VentasDAO.cs" />
+    <Compile Include="Conexion_MySQL\ConectorMySQL.cs" />
+    <Compile Include="Forms\Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionVentas\EliminarProductosVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionVentas\EliminarProductosVenta.Designer.cs">
+      <DependentUpon>EliminarProductosVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VentanasBase\MainMenuEstatico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VentanasBase\MainMenuEstatico.Designer.cs">
+      <DependentUpon>MainMenuEstatico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionInventario\FormModificarProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionInventario\FormModificarProd.Designer.cs">
+      <DependentUpon>FormModificarProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionInventario\FormRegistrarProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionInventario\FormRegistrarProd.Designer.cs">
+      <DependentUpon>FormRegistrarProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionInventario\MainMenuInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionInventario\MainMenuInventario.Designer.cs">
+      <DependentUpon>MainMenuInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionUsuarios\FormModificarUsuariosGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionUsuarios\FormModificarUsuariosGen.Designer.cs">
+      <DependentUpon>FormModificarUsuariosGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionUsuarios\MainMenuUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionUsuarios\MainMenuUsuarios.Designer.cs">
+      <DependentUpon>MainMenuUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionVentas\FormModificarVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionVentas\FormModificarVentas.Designer.cs">
+      <DependentUpon>FormModificarVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionUsuarios\FormRegistrarUsuariosGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionUsuarios\FormRegistrarUsuariosGen.Designer.cs">
+      <DependentUpon>FormRegistrarUsuariosGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpcionVentas\MainMenuVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpcionVentas\MainMenuVentas.Designer.cs">
+      <DependentUpon>MainMenuVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VentanasBase\FormMostrarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VentanasBase\FormMostrarProductos.Designer.cs">
+      <DependentUpon>FormMostrarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VentanasBase\VentanaBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VentanasBase\VentanaBase.Designer.cs">
+      <DependentUpon>VentanaBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\ICRUD.cs" />
+    <Compile Include="Clases_base\Producto.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Clases_base\UsuarioGeneral.cs" />
+    <Compile Include="Clases_base\Venta.cs" />
+    <EmbeddedResource Include="Forms\Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionVentas\EliminarProductosVenta.resx">
+      <DependentUpon>EliminarProductosVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VentanasBase\MainMenuEstatico.resx">
+      <DependentUpon>MainMenuEstatico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionInventario\FormModificarProd.resx">
+      <DependentUpon>FormModificarProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionInventario\FormRegistrarProd.resx">
+      <DependentUpon>FormRegistrarProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionInventario\MainMenuInventario.resx">
+      <DependentUpon>MainMenuInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionUsuarios\FormModificarUsuariosGen.resx">
+      <DependentUpon>FormModificarUsuariosGen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionUsuarios\MainMenuUsuarios.resx">
+      <DependentUpon>MainMenuUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionVentas\FormModificarVentas.resx">
+      <DependentUpon>FormModificarVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionUsuarios\FormRegistrarUsuariosGen.resx">
+      <DependentUpon>FormRegistrarUsuariosGen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpcionVentas\MainMenuVentas.resx">
+      <DependentUpon>MainMenuVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VentanasBase\FormMostrarProductos.resx">
+      <DependentUpon>FormMostrarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VentanasBase\VentanaBase.resx">
+      <DependentUpon>VentanaBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\gerente64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gerente32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
