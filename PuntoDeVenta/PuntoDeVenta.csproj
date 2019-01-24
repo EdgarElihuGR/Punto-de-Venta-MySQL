@@ -137,7 +137,6 @@
     <Compile Include="Forms\VentanasBase\VentanaBase.Designer.cs">
       <DependentUpon>VentanaBase.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface\ICRUD.cs" />
     <Compile Include="Clases_base\Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

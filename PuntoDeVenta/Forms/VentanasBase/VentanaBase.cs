@@ -153,11 +153,22 @@ namespace PuntoDeVenta.Forms
             Form1.iconoCerrar.BackColor = Color.LimeGreen;
             frmMostrarProductos.Close();
 
-            Form1.botonInventario.Enabled = true;
-            Form1.botonVentas.Enabled = true;
-            Form1.botonUsuarios.Enabled = true;
-            Form1.button1.Enabled = true;
-            Form1.iconoCerrar.Enabled = true;
+            if (Program.tipoUsuario == "Administrador")
+            {
+                Form1.botonInventario.Enabled = true;
+                Form1.botonVentas.Enabled = true;
+                Form1.botonUsuarios.Enabled = true;
+                Form1.button1.Enabled = true;
+                Form1.iconoCerrar.Enabled = true;
+            }
+            else
+            {
+                Form1.button1.Enabled = true;
+                Form1.iconoCerrar.Enabled = true;
+                Form1.botonInventario.BackColor = Color.LightGray;
+                Form1.botonVentas.BackColor = Color.LightGray;
+                Form1.botonUsuarios.BackColor = Color.LightGray;
+            }
 
             foreach (DataGridViewRow row in tablaHacerVentas.Rows)
             {
