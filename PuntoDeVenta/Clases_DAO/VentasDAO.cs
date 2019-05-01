@@ -13,9 +13,9 @@ namespace PuntoDeVenta.Clases_DAO
     {
         public static int crear(Venta add) // agregar
         {
-            int retorno = 0;
+            int retorno = 0;//checar claves foreaneas
             MySqlCommand comando = new MySqlCommand(String.Format("insert into ventas(id,subtotal,IVA,total,fecha)values('{0}','{1}','{2}','{3}','{4}')",
-                add.ID, add.Subtotal, add.IVA,add.Total,add.Efecha), ConectorMySQL.Conectar());
+                add.ID, add.Subtotal, add.IVA, add.Total, add.Efecha), ConectorMySQL.Conectar());
             try
             {
                 retorno = comando.ExecuteNonQuery();
@@ -31,14 +31,14 @@ namespace PuntoDeVenta.Clases_DAO
             }
 
         }
-        public static int ActualizarStock(int id, int stock )
+        public static int ActualizarStock(int id, int stock)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format(" UPDATE compras SET stock = '{0}' WHERE id = '{1}'", stock,id), ConectorMySQL.Conectar());
-            try                                                        
+            MySqlCommand comando = new MySqlCommand(String.Format("call actualizarStock('{0}','{1}')", stock, id), ConectorMySQL.Conectar());
+            try
 
             {
-              int actualizar = comando.ExecuteNonQuery();
-              return actualizar;
+                int actualizar = comando.ExecuteNonQuery();
+                return actualizar;
             }
             catch (Exception)
             {
@@ -51,8 +51,8 @@ namespace PuntoDeVenta.Clases_DAO
         }
         public static List<Venta> leerTodo() // mostrar
         {
-            List<Venta> lista = new List<Venta >();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from ventas"), ConectorMySQL.Conectar());
+            List<Venta> lista = new List<Venta>();
+            MySqlCommand comando = new MySqlCommand(String.Format("call VerVenta ()"), ConectorMySQL.Conectar());
 
             try
             {
@@ -66,7 +66,7 @@ namespace PuntoDeVenta.Clases_DAO
                     p.IVA = leer.GetDouble(2);
                     p.Total = leer.GetDouble(3);
                     p.Fecha = leer.GetDateTime(4);
-                  
+
                     lista.Add(p);
                 }
                 return lista;
@@ -82,12 +82,12 @@ namespace PuntoDeVenta.Clases_DAO
             }
         }
 
-       
-       
-           
+
+
+
         public static int eliminar(int id)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format("DELETE FROM ventas where id = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call EliminarVenta('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 int eliminado = comando.ExecuteNonQuery();
@@ -105,7 +105,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static List<Venta> leerPorid(int id) // buscar
         {
             List<Venta> listaBuscar = new List<Venta>();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from ventas where id = '{0}'",id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call buscarVentaId('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -118,7 +118,7 @@ namespace PuntoDeVenta.Clases_DAO
                     p.IVA = leer.GetDouble(2);
                     p.Total = leer.GetDouble(3);
                     p.Fecha = leer.GetDateTime(4);
-                 
+
                     listaBuscar.Add(p);
                 }
                 return listaBuscar;
@@ -136,7 +136,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static Venta leerPorIDUna(int id) // buscar
         {
             Venta p = new Venta();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from ventas where id = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call buscarVentaId('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -165,7 +165,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static Venta leerPoFecha(string fecha) // buscar
         {
             Venta venta = new Venta();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from ventas where fecha = '{0}'", fecha), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call buscarVentaFecha('{0}')", fecha), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -196,13 +196,14 @@ namespace PuntoDeVenta.Clases_DAO
             int retorno = 0;
             double montoARestar = 0;
 
+            //Pasar calculos a SP
             venta = leerPorIDUna(detalle.ID_Venta);
             montoARestar = producto.Precio * cantidad;
             venta.Subtotal = venta.Subtotal - montoARestar;
             venta.IVA = venta.Subtotal * .16;
             venta.Total = venta.Subtotal + venta.IVA;
 
-            MySqlCommand comando = new MySqlCommand(String.Format(" UPDATE ventas SET SubTotal ='{0}', IVA ='{1}', Total ='{2}' WHERE id = '{3}'",
+            MySqlCommand comando = new MySqlCommand(String.Format(" call ActualizarVenta('{0}','{1}','{2}','{3}')",
                                                     venta.Subtotal, venta.IVA, venta.Total, detalle.ID_Venta), ConectorMySQL.Conectar());
             try
             {
@@ -225,7 +226,7 @@ namespace PuntoDeVenta.Clases_DAO
             bool retorno = false;
 
             Venta p = new Venta();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from ventas where id = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format(" call VBuscarId('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -239,7 +240,8 @@ namespace PuntoDeVenta.Clases_DAO
                     p.Fecha = leer.GetDateTime(4);
 
                 }
-                if (p.Subtotal == 0 && p.IVA == 0 && p.Total == 0) {
+                if (p.Subtotal == 0 && p.IVA == 0 && p.Total == 0)
+                {
                     retorno = true;
                     return retorno;
                 }

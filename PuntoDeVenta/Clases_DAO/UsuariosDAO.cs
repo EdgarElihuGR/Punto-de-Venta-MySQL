@@ -11,13 +11,13 @@ namespace PuntoDeVenta.Clases_DAO
 {
     class UsuariosDAO
     {
-        public static int crear( UsuarioGeneral add) // agregar
-        { 
+        public static int crear(UsuarioGeneral add) // agregar
+        {
             int retorno = 0;
-            MySqlCommand comando = new MySqlCommand(String.Format("insert into usuarios(nombre,contraseña)values('{0}','{1}')",
-                add.Nombre,add.Contraseña), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("CALL nuevoUsuario('{0}','{1}')",
+                add.Nombre, add.Contraseña), ConectorMySQL.Conectar());
             try
-            { 
+            {
                 retorno = comando.ExecuteNonQuery();
                 return retorno;
             }
@@ -34,7 +34,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static List<UsuarioGeneral> leerTodo() // mostrar
         {
             List<UsuarioGeneral> lista = new List<UsuarioGeneral>();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from usuarios"), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("CALL verUsuarios()"), ConectorMySQL.Conectar());
 
             try
             {
@@ -65,7 +65,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static List<UsuarioGeneral> leerPordescripcion(string nombre) // buscar
         {
             List<UsuarioGeneral> listaBuscar = new List<UsuarioGeneral>();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from usuarios where nombre = '{0}'", nombre), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call UBuscarNombre('{0}')", nombre), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -93,7 +93,7 @@ namespace PuntoDeVenta.Clases_DAO
 
         public static UsuarioGeneral IniciarSesionGeneral(string nombre, string contra)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from usuarios where nombre = '{0}' and contraseña = '{1}'", nombre,contra), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("CALL InicioSesion('{0}','{1}')", nombre, contra), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -119,7 +119,7 @@ namespace PuntoDeVenta.Clases_DAO
 
         public static Administrador IniciarSesionAdmin(string nombre, string contra)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from usuarios where nombre = '{0}' and contraseña = '{1}'", nombre, contra), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("CALL InicioSesion('{0}', '{1}')", nombre, contra), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -146,7 +146,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static int eliminar(int id)
         {
 
-            MySqlCommand comando = new MySqlCommand(String.Format("DELETE FROM usuarios where id = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("CALL eliminaruser ('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 int eliminado = comando.ExecuteNonQuery();
@@ -164,7 +164,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static UsuarioGeneral obtenerproducto(int id)
         {
             UsuarioGeneral s = new UsuarioGeneral();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from usuarios where id = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call UBuscarId('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
@@ -191,7 +191,7 @@ namespace PuntoDeVenta.Clases_DAO
         }
         public static int Actualizarusuario(int id, string nombre, string comtraseña)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format(" UPDATE usuarios SET  nombre = '{0}',contraseña = '{1}' WHERE id = '{2}'", nombre, comtraseña, id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call ActualizarUser ('{0}','{1}','{2}')", nombre, comtraseña, id), ConectorMySQL.Conectar());
             try
 
             {
