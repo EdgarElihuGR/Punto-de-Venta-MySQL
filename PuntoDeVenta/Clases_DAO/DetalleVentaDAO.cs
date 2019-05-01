@@ -12,7 +12,7 @@ namespace PuntoDeVenta.Clases_DAO
     {
         public static int eliminarDetalleVenta(int id)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format("DELETE FROM detalleventas where id_detalle = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call EliminarDVenta( '{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 int eliminado = comando.ExecuteNonQuery();
@@ -27,9 +27,10 @@ namespace PuntoDeVenta.Clases_DAO
                 ConectorMySQL.Desconectar();
             }
         }
+
         public static List<DetallesVenta> leerDetalleVenta(int id) // buscar
         {
-            List<DetallesVenta> listaBuscar = new List<DetallesVenta>();
+            List<DetallesVenta> listaBuscar = new List<DetallesVenta>(); // usa clave foranea
             MySqlCommand comando = new MySqlCommand(String.Format("select * from detalleventas where id_venta = '{0}'", id), ConectorMySQL.Conectar());
             try
             {
@@ -63,7 +64,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static DetallesVenta leerDetalleVentaUna(int id) // buscar
         {
             DetallesVenta p = new DetallesVenta();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from detalleventas where Id_Detalle = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call DbuscarId('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer1 = comando.ExecuteReader();
@@ -90,10 +91,11 @@ namespace PuntoDeVenta.Clases_DAO
             }
         }
         public static int crear(DetallesVenta add) // agregar
+                                                   //usa llaves foraneas
         {
             int retorno = 0;
             MySqlCommand comando = new MySqlCommand(String.Format("insert into detalleventas(Cantidad,descripcion,precio,Importe,id_producto,id_venta)values('{0}','{1}','{2}','{3}','{4}','{5}')",
-                add.Cantidad, add.Descripcion, add.Precio, add.Importe, add.ID_Producto,add.ID_Venta), ConectorMySQL.Conectar());// el 9 de arriba es el id venta tiene que ser el mismo que crea al hacer la venta
+                add.Cantidad, add.Descripcion, add.Precio, add.Importe, add.ID_Producto, add.ID_Venta), ConectorMySQL.Conectar());// el 9 de arriba es el id venta tiene que ser el mismo que crea al hacer la venta
             try
             {
                 retorno = comando.ExecuteNonQuery();
@@ -112,7 +114,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static List<DetallesVenta> leerTodo() // mostrar
         {
             List<DetallesVenta> lista = new List<DetallesVenta>();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from detalleventas"), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call verDetalleVenta()"), ConectorMySQL.Conectar());
 
             try
             {
@@ -148,7 +150,7 @@ namespace PuntoDeVenta.Clases_DAO
             double importe = 0;
 
             importe = stock * precio;
-            MySqlCommand comando = new MySqlCommand(String.Format(" UPDATE detalleventas SET Cantidad = '{0}', importe = '{1}' WHERE Id_Detalle = '{2}'", stock, importe, id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call ActuDetallStock('{0}','{1}','{2}')", stock, importe, id), ConectorMySQL.Conectar());
             try
 
             {
@@ -167,7 +169,7 @@ namespace PuntoDeVenta.Clases_DAO
         public static List<DetallesVenta> leerPordescripcion(string descripcion) // buscar
         {
             List<DetallesVenta> listaBuscar = new List<DetallesVenta>();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from detalleventas where descripcion = '{0}'", descripcion), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call DbuscarDescrip('{0}')", descripcion), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer1 = comando.ExecuteReader();
