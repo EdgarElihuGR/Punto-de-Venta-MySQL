@@ -192,19 +192,11 @@ namespace PuntoDeVenta.Clases_DAO
 
         public static int ActualizarVenta(DetallesVenta detalle, Producto producto, int cantidad)
         {
-            Venta venta = new Venta();
+
             int retorno = 0;
-            double montoARestar = 0;
 
-            //Pasar calculos a SP
-            venta = leerPorIDUna(detalle.ID_Venta);
-            montoARestar = producto.Precio * cantidad;
-            venta.Subtotal = venta.Subtotal - montoARestar;
-            venta.IVA = venta.Subtotal * .16;
-            venta.Total = venta.Subtotal + venta.IVA;
-
-            MySqlCommand comando = new MySqlCommand(String.Format(" call ActualizarVenta('{0}','{1}','{2}','{3}')",
-                                                    venta.Subtotal, venta.IVA, venta.Total, detalle.ID_Venta), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format(" call ActualizarVenta('{0}','{1}','{2}')",
+                                                    detalle.ID_Venta, producto.Precio, cantidad), ConectorMySQL.Conectar());
             try
             {
                 comando.ExecuteNonQuery();
