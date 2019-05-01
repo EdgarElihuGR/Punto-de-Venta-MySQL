@@ -375,6 +375,6 @@ MigrationBackup/
 
 storage.ide-*
 
-.suo
+*.suo
 
 # End of https://www.gitignore.io/api/windows,visualstudio
