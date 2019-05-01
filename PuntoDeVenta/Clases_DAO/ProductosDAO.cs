@@ -13,12 +13,12 @@ namespace PuntoDeVenta.Clases_DAO
         public static int crear(Producto add) // agregar
         {
             int retorno = 0;
-            MySqlCommand comando = new MySqlCommand(String.Format("insert into compras(stock,descripcion,precio)values('{0}','{1}','{2}')",
+            MySqlCommand comando = new MySqlCommand(String.Format("call NuevaCompra('{0}','{1}','{2}')",
                 add.Stock, add.Descripcion, add.Precio), ConectorMySQL.Conectar());
             try
             {
                 retorno = comando.ExecuteNonQuery();
-            return retorno;
+                return retorno;
             }
             catch (Exception)
             {
@@ -34,20 +34,20 @@ namespace PuntoDeVenta.Clases_DAO
         public static Producto obtenerproducto(int id)
         {
             Producto p = new Producto();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from compras where id = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call Cbuscarid( '{0}')", id), ConectorMySQL.Conectar());
             try
             {
-            MySqlDataReader read = comando.ExecuteReader();
+                MySqlDataReader read = comando.ExecuteReader();
 
                 while (read.Read())
-            {
-                p.ID = read.GetInt32(0);
-                p.Stock = read.GetInt32(1);
-                p.Descripcion = read.GetString(2);
-                p.Precio = read.GetDouble(3);
+                {
+                    p.ID = read.GetInt32(0);
+                    p.Stock = read.GetInt32(1);
+                    p.Descripcion = read.GetString(2);
+                    p.Precio = read.GetDouble(3);
+                }
+                return p;
             }
-            return p;
-        }
             catch (Exception)
             {
                 throw;
@@ -55,12 +55,12 @@ namespace PuntoDeVenta.Clases_DAO
             finally
             {
                 ConectorMySQL.Desconectar();
-                
+
             }
         }
         public static int eliminar(int id)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format("DELETE FROM compras where id = '{0}'", id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call elimnarCompra('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 int eliminado = comando.ExecuteNonQuery();
@@ -70,7 +70,7 @@ namespace PuntoDeVenta.Clases_DAO
             {
                 return id;
             }
-              finally
+            finally
             {
                 ConectorMySQL.Desconectar();
             }
@@ -81,24 +81,25 @@ namespace PuntoDeVenta.Clases_DAO
             throw new NotImplementedException();
         }
 
-        public  static List<Producto> leerPordescripcion(string descripcion) // buscar
+        public static List<Producto> leerPordescripcion(string descripcion) // buscar
         {
             List<Producto> listaBuscar = new List<Producto>();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from compras where descripcion = '{0}'", descripcion), ConectorMySQL.Conectar());
-            try { 
-            MySqlDataReader leer1 = comando.ExecuteReader();
-
-            while (leer1.Read())
+            MySqlCommand comando = new MySqlCommand(String.Format("call CbuscarDescrip('{0}')", descripcion), ConectorMySQL.Conectar());
+            try
             {
-                Producto p = new Producto();
-                p.ID = leer1.GetInt32(0);
-                p.Stock = leer1.GetInt32(1);
-                p.Descripcion = leer1.GetString(2);
-                p.Precio = leer1.GetDouble(3);
-                listaBuscar.Add(p);
+                MySqlDataReader leer1 = comando.ExecuteReader();
+
+                while (leer1.Read())
+                {
+                    Producto p = new Producto();
+                    p.ID = leer1.GetInt32(0);
+                    p.Stock = leer1.GetInt32(1);
+                    p.Descripcion = leer1.GetString(2);
+                    p.Precio = leer1.GetDouble(3);
+                    listaBuscar.Add(p);
+                }
+                return listaBuscar;
             }
-            return listaBuscar;
-        }
             catch (Exception)
             {
                 throw;
@@ -112,12 +113,12 @@ namespace PuntoDeVenta.Clases_DAO
         public static List<Producto> leerTodo() // mostrar
         {
             List<Producto> lista = new List<Producto>();
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from compras"), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format("call VerCompras()"), ConectorMySQL.Conectar());
 
             try
             {
                 MySqlDataReader leer = comando.ExecuteReader();
-                 while (leer.Read())
+                while (leer.Read())
                 {
 
                     Producto p = new Producto();
@@ -139,9 +140,9 @@ namespace PuntoDeVenta.Clases_DAO
                 ConectorMySQL.Desconectar();
             }
         }
-        public static int ActualizarStock(int id, string descripcion, int stock,double precio)
+        public static int ActualizarStock(int id, string descripcion, int stock, double precio)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format(" UPDATE compras SET  descripcion = '{0}',stock = '{1}',precio='{2}' WHERE id = '{3}'", descripcion, stock, precio, id), ConectorMySQL.Conectar());
+            MySqlCommand comando = new MySqlCommand(String.Format(" call ActualizarProduc('{0}','{1}','{2}','{3}')", descripcion, stock, precio, id), ConectorMySQL.Conectar());
             try
 
             {
@@ -157,8 +158,5 @@ namespace PuntoDeVenta.Clases_DAO
                 ConectorMySQL.Desconectar();
             }
         }
-
-
-
     }
 }
