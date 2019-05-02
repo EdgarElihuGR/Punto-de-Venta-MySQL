@@ -61,6 +61,8 @@ namespace PuntoDeVenta.Forms.VentanasBase
 
         private void botonAgregarProdAVender_Click(object sender, EventArgs e)
         {
+            FuncionesGenerales.contadorAgregarProducto++;
+
             if (tablaMostrarProductos.SelectedRows.Count == 1)
             {
                 int id = Convert.ToInt32(tablaMostrarProductos.CurrentRow.Cells[0].Value);
@@ -72,7 +74,15 @@ namespace PuntoDeVenta.Forms.VentanasBase
                 {
                     int nuevotock = stock - cantidad;
 
-                    Clases_DAO.VentasDAO.ActualizarStock(id, nuevotock); 
+                    //Logica añadida para saber si es la primera vez que se clickea el botón de agregar producto
+
+                    if (FuncionesGenerales.contadorAgregarProducto == 1) { //Si contador es igual a 1 se pasa un true como parámetro
+                        Clases_DAO.VentasDAO.ActualizarStock(id, nuevotock, true);
+                    }
+                    else
+                    {
+                        Clases_DAO.VentasDAO.ActualizarStock(id, nuevotock, false); //Si no es 1 se pasa un false como parámetro
+                    }
 
                     VentanaBase v = Owner as VentanaBase; // Reconoce la ventana padre a la hijo
                    

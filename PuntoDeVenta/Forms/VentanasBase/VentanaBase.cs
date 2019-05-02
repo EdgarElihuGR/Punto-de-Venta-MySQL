@@ -1,4 +1,5 @@
-﻿using PuntoDeVenta.Forms;
+﻿using PuntoDeVenta.Clases_DAO;
+using PuntoDeVenta.Forms;
 using PuntoDeVenta.Forms.VentanasBase;
 using System;
 using System.Collections.Generic;
@@ -74,7 +75,7 @@ namespace PuntoDeVenta.Forms
 
                 int nuevotock = stock + Cantidad;
 
-                Clases_DAO.VentasDAO.ActualizarStock(id, nuevotock);
+                Clases_DAO.VentasDAO.ActualizarStock(id, nuevotock, false); 
 
 
                 tablaHacerVentas.Rows.RemoveAt(tablaHacerVentas.CurrentRow.Index);
@@ -131,6 +132,8 @@ namespace PuntoDeVenta.Forms
                     Form1.botonUsuarios.Enabled = true;
                     Form1.button1.Enabled = true;
                     Form1.iconoCerrar.Enabled = true;
+
+                    VentasDAO.Commit();
                 }
                 else
                 {
@@ -170,17 +173,18 @@ namespace PuntoDeVenta.Forms
                 Form1.botonUsuarios.BackColor = Color.LightGray;
             }
 
-            foreach (DataGridViewRow row in tablaHacerVentas.Rows)
-            {
-                Producto p = new Producto();
-                idProducto = Convert.ToInt32(row.Cells["idProducto"].Value);
-                cantidad = Convert.ToInt32(row.Cells["Column1"].Value);
-                p = Clases_DAO.ProductosDAO.obtenerproducto(idProducto);
-                cantidad += p.Stock;
-                Clases_DAO.VentasDAO.ActualizarStock(idProducto, cantidad);
-            }
+            //Producto p = new Producto();
+            //idProducto = Convert.ToInt32(row.Cells["idProducto"].Value);
+            //cantidad = Convert.ToInt32(row.Cells["Column1"].Value);
+            //p = Clases_DAO.ProductosDAO.obtenerproducto(idProducto);
+            //cantidad += p.Stock;
+            //Clases_DAO.VentasDAO.ActualizarStock(idProducto, cantidad);
+
+            VentasDAO.Rollback();
+
             btnCancelarVenta.Visible = false;
             lblCancelarVenta.Visible = false;
+            FuncionesGenerales.contadorAgregarProducto = 0;
             Clases_DAO.FuncionesGenerales.abrirFormInPanel(new VentanaBase(), Form1.panelContenedor);
         }
     }

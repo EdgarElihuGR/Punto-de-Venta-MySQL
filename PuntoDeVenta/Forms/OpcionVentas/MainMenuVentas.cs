@@ -60,7 +60,7 @@ namespace PuntoDeVenta.Forms.OpcionVentas
                         Producto p = new Producto();
                         p = Clases_DAO.ProductosDAO.obtenerproducto(detalle.ID_Producto);
                         detalle.Cantidad += p.Stock;
-                        Clases_DAO.VentasDAO.ActualizarStock(detalle.ID_Producto, detalle.Cantidad);
+                        Clases_DAO.VentasDAO.ActualizarStock(detalle.ID_Producto, detalle.Cantidad, false);
                     }
 
                     int eliminado = Clases_DAO.VentasDAO.eliminar(id);

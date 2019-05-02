@@ -10,6 +10,8 @@ namespace PuntoDeVenta.Clases_DAO
 {
     class FuncionesGenerales
     {
+        public static int contadorAgregarProducto = 0;
+
         public static void abrirFormInPanel(object formHijo, Panel panelContenedor)
         {
             if (panelContenedor.Controls.Count > 0)

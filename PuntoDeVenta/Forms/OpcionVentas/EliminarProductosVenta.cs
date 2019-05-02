@@ -37,7 +37,7 @@ namespace PuntoDeVenta.Forms.OpcionVentas
 
                 if (cantidad < detalle.Cantidad)
                 {
-                    int eliminado = Clases_DAO.VentasDAO.ActualizarStock(detalle.ID_Producto, stockSuma);
+                    int eliminado = Clases_DAO.VentasDAO.ActualizarStock(detalle.ID_Producto, stockSuma, false);
                     Clases_DAO.DetalleVentaDAO.ActualizarStockDetalle(detalle.ID_Detalle, stockResta, producto.Precio);
 
                     Clases_DAO.VentasDAO.ActualizarVenta(detalle, producto, cantidad);
@@ -54,7 +54,7 @@ namespace PuntoDeVenta.Forms.OpcionVentas
                 }
                 else
                 {
-                    int eliminado = Clases_DAO.VentasDAO.ActualizarStock(detalle.ID_Producto, stockSuma);
+                    int eliminado = Clases_DAO.VentasDAO.ActualizarStock(detalle.ID_Producto, stockSuma, false);
                     Clases_DAO.VentasDAO.ActualizarVenta(detalle, producto, cantidad);
                     if (eliminado > 0)
                     {

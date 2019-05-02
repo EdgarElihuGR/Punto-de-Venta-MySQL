@@ -31,17 +31,19 @@ namespace PuntoDeVenta.Clases_DAO
             }
 
         }
-        public static int ActualizarStock(int id, int stock)
+        public static int ActualizarStock(int id, int stock, Boolean esPrimerProducto)
         {
-            MySqlCommand comando = new MySqlCommand(String.Format("call actualizarStock('{0}','{1}')", stock, id), ConectorMySQL.Conectar());
+
+            MySqlCommand comando = new MySqlCommand(String.Format("call actualizarStock('{0}','{1}','{2}')", stock, id, esPrimerProducto), ConectorMySQL.Conectar());
             try
 
             {
-                int actualizar = comando.ExecuteNonQuery();
-                return actualizar;
+                int retorno = comando.ExecuteNonQuery();
+                return retorno;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.Message);
                 return id;
             }
             finally
@@ -248,6 +250,50 @@ namespace PuntoDeVenta.Clases_DAO
             }
 
             return retorno;
+        }
+
+        public static void Commit()
+        { 
+
+            MySqlCommand comando = new MySqlCommand(String.Format("call Commit"), ConectorMySQL.Conectar());
+
+            try
+            {
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error, commit no hecho");
+                MessageBox.Show(e.Message);
+
+            }
+            finally
+            {
+                ConectorMySQL.Desconectar();
+            }
+
+        }
+
+        public static void Rollback()
+        {
+
+            MySqlCommand comando = new MySqlCommand(String.Format("call Rollback"), ConectorMySQL.Conectar());
+
+            try
+            {
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error, rollback no hecho");
+                MessageBox.Show(e.Message);
+
+            }
+            finally
+            {
+                ConectorMySQL.Desconectar();
+            }
+
         }
     }
 }
