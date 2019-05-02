@@ -377,4 +377,6 @@ storage.ide-*
 
 *.suo
 
+DesignTimeResolveAssemblyReferences.cache
+
 # End of https://www.gitignore.io/api/windows,visualstudio
