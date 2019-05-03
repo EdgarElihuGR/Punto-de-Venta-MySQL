@@ -30,8 +30,8 @@ namespace PuntoDeVenta.Clases_DAO
 
         public static List<DetallesVenta> leerDetalleVenta(int id) // buscar
         {
-            List<DetallesVenta> listaBuscar = new List<DetallesVenta>(); // usa clave foranea
-            MySqlCommand comando = new MySqlCommand(String.Format("select * from detalleventas where id_venta = '{0}'", id), ConectorMySQL.Conectar());
+            List<DetallesVenta> listaBuscar = new List<DetallesVenta>();
+            MySqlCommand comando = new MySqlCommand(String.Format("call LeerDetalleVenta('{0}')", id), ConectorMySQL.Conectar());
             try
             {
                 MySqlDataReader leer1 = comando.ExecuteReader();
@@ -80,26 +80,6 @@ namespace PuntoDeVenta.Clases_DAO
                     p.ID_Venta = leer1.GetInt32(6);
                 }
                 return p;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                ConectorMySQL.Desconectar();
-            }
-        }
-        public static int crear(DetallesVenta add) // agregar
-                                                   //usa llaves foraneas
-        {
-            int retorno = 0;
-            MySqlCommand comando = new MySqlCommand(String.Format("insert into detalleventas(Cantidad,descripcion,precio,Importe,id_producto,id_venta)values('{0}','{1}','{2}','{3}','{4}','{5}')",
-                add.Cantidad, add.Descripcion, add.Precio, add.Importe, add.ID_Producto, add.ID_Venta), ConectorMySQL.Conectar());// el 9 de arriba es el id venta tiene que ser el mismo que crea al hacer la venta
-            try
-            {
-                retorno = comando.ExecuteNonQuery();
-                return retorno;
             }
             catch (Exception)
             {
@@ -185,6 +165,26 @@ namespace PuntoDeVenta.Clases_DAO
                     listaBuscar.Add(d);
                 }
                 return listaBuscar;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                ConectorMySQL.Desconectar();
+            }
+        }
+
+        public static void CrearDetalleTemporal(int id_prod, int cantidad, double importe, string descripcion, double precio)
+        {
+
+            MySqlCommand comando = new MySqlCommand(String.Format("call generar_detalles_tmp('{0}','{1}','{2}','{3}','{4}')",
+                                                    id_prod, cantidad, importe, descripcion, precio), ConectorMySQL.Conectar());
+            try
+
+            {
+                comando.ExecuteNonQuery();
             }
             catch (Exception)
             {
