@@ -90,6 +90,21 @@ namespace PuntoDeVenta.Forms
             if (labelSubtotal.Text != "00.00") {
                 DetallesVenta detalle = new DetallesVenta();
                 Venta agregar = new Venta();
+
+                foreach (DataGridViewRow row in tablaHacerVentas.Rows)
+                {
+
+                    detalle.ID_Producto = Convert.ToInt32(row.Cells["idProducto"].Value);
+                    detalle.Cantidad = Convert.ToInt32(row.Cells["Column1"].Value);
+                    detalle.Descripcion = Convert.ToString(row.Cells["Column2"].Value);
+                    detalle.Precio = Convert.ToDouble(row.Cells["Column3"].Value);
+                    detalle.Importe = Convert.ToDouble(row.Cells["Column4"].Value);
+
+                    Clases_DAO.DetalleVentaDAO.CrearDetalleTemporal(detalle.ID_Producto, detalle.Cantidad, detalle.Importe,
+                                                                    detalle.Descripcion, detalle.Precio);
+
+                }
+
                 agregar.Subtotal = Convert.ToDouble(labelSubtotal.Text);
                 agregar.IVA = Convert.ToDouble(labelIVA.Text);
                 agregar.Total = Convert.ToDouble(labelTotal.Text);
@@ -98,21 +113,6 @@ namespace PuntoDeVenta.Forms
                 agregar.Efecha = sqlFormattedDate;
 
                 int retorno = Clases_DAO.VentasDAO.crear(agregar);
-
-                agregar = Clases_DAO.VentasDAO.leerPoFecha(agregar.Efecha);
-
-                foreach (DataGridViewRow row in tablaHacerVentas.Rows)
-                {
-                    detalle.ID_Producto = Convert.ToInt32(row.Cells["idProducto"].Value);
-                    detalle.Cantidad = Convert.ToInt32(row.Cells["Column1"].Value);
-                    detalle.Descripcion = Convert.ToString(row.Cells["Column2"].Value);
-                    detalle.Precio = Convert.ToDouble(row.Cells["Column3"].Value);
-                    detalle.Importe = Convert.ToDouble(row.Cells["Column4"].Value);
-
-                    detalle.ID_Venta = agregar.ID;
-                    int retornos = Clases_DAO.DetalleVentaDAO.crear(detalle);
-
-                }
 
                 if (retorno > 0)
                 {

@@ -13,9 +13,9 @@ namespace PuntoDeVenta.Clases_DAO
     {
         public static int crear(Venta add) // agregar
         {
-            int retorno = 0;//checar claves foreaneas
-            MySqlCommand comando = new MySqlCommand(String.Format("insert into ventas(id,subtotal,IVA,total,fecha)values('{0}','{1}','{2}','{3}','{4}')",
-                add.ID, add.Subtotal, add.IVA, add.Total, add.Efecha), ConectorMySQL.Conectar());
+            int retorno = 0;
+            MySqlCommand comando = new MySqlCommand(String.Format("call CrearVenta('{0}','{1}','{2}','{3}')",
+                                                    add.Subtotal, add.IVA, add.Total, add.Efecha), ConectorMySQL.Conectar());
             try
             {
                 retorno = comando.ExecuteNonQuery();
